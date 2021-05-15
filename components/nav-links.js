@@ -113,6 +113,11 @@ const NavLinks = () => {
               <a>Blog Details</a>
             </Link>
           </li>
+          <li>
+            <Link href="/admin">
+              <a href="www.facebook.com">Admin</a>
+            </Link>
+          </li>
         </ul>
       </li>
       <li className="search-btn search-opener">

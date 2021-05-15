@@ -2,7 +2,7 @@
   "name": "sebit-react",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github-bracket-web:bracket-web/besit-react.git",
+  "repository": "https://github.com/Jukakombo/sebitowebsite.git",
   "author": "Alyson de Best alisonmagid2016@gmail.com>",
   "license": "MIT",
   "scripts": {

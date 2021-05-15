@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const ContactSchema = new mongoose({
+const ContactSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, "Please enter your name"],
@@ -25,10 +25,14 @@ const ContactSchema = new mongoose({
     required: [true, "Please enter your Message here"],
     maxlength: [
       1000,
-      "Suject can not be more than 1000 characters please summarize",
+      "Suject can not be more than 1000 characters please summarize your message",
     ],
   },
 });
 
+// const Contact = mongoose.model("Contact", contactSchema);
+// export default Contact;
+
 module.exports =
-  mongoose.models.Contact || mongoose.Model("Contact", ContactSchema);
+  mongoose.models.Contact || mongoose.model("Contact", ContactSchema);
+//

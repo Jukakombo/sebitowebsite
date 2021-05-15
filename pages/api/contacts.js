@@ -1,6 +1,8 @@
-import dbConnect from "../../../utils/dbconnect";
-import Contact from "../../../models/Contact";
+import Contact from "models/Contact";
+import dbConnect from "utils/dbConnect";
+// import dbConnect from "utils/dbConnect";
 dbConnect();
+
 export default async (req, res) => {
   const { method } = req;
 
@@ -13,14 +15,16 @@ export default async (req, res) => {
         res.status(400).json({ success: false });
       }
       break;
+
     case "POST":
       try {
         const contact = await Contact.create(req.body);
-        res.status(2001).json({ success: true, data: contact });
+        res.status(201).json({ success: true, data: contact });
       } catch (error) {
         res.status(400).json({ success: false });
       }
       break;
+
     default:
       res.status(400).json({ success: false });
       break;

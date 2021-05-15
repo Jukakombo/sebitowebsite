@@ -60,8 +60,8 @@ const HeaderOne = () => {
             </div>
             <div className="header-info">
               <i className="far fa-map-marker-alt"></i>
-              <h3>380 St Kilda Road,</h3>
-              <p>Melbourne, Australia</p>
+              <h3>380 Konyokonyo Road,</h3>
+              <p>Juba, C.E.S</p>
             </div>
           </div>
         </Container>
