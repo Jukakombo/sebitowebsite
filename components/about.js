@@ -26,15 +26,15 @@ const About = () => {
             <div className="about-one__content">
               <div className="block-title text-left">
                 <p>
-                  <span></span>About Company
+                  <span></span>About Your buisiness
                 </p>
                 <h3>
-                  Your Partner for <br /> <span>Software Innovation</span>
+                  example Your Partner for <br /> <span>Brief summary of your business</span>
                 </h3>
               </div>
 
               <p>
-                We work with the public sector to build thriving communities.
+                Example We work with the public sector to build thriving communities.
                 And we ork with regulators and financial institutions to build
                 trust and integrity in ets uis aliqua sunt nisi consectetur
                 anim.
