@@ -14,7 +14,7 @@ const Dashboard = () => {
     <Layout pageTitle="JB General Trading Co.Ltd">
       <HeaderOne />
       <MobileNav />
-      <table class="table">
+      <table className="table">
         <thead>
           <tr>
             <th scope="col">#</th>

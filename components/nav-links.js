@@ -12,21 +12,6 @@ const NavLinks = () => {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <button className="dropdown-btn" onClick={handleDropdownStatus}>
-          <i className="fa fa-angle-right"></i>
-        </button>
-        <ul className="dropdown-list">
-          <li>
-            <Link href="/">
-              <a>Home One</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/index-2">
-              <a>Home Two</a>
-            </Link>
-          </li>
-        </ul>
       </li>
       <li>
         <ScrollLink
@@ -97,6 +82,38 @@ const NavLinks = () => {
           offset={-70}
           duration={1000}
         >
+          Products
+        </ScrollLink>
+        <button className="dropdown-btn" onClick={handleDropdownStatus}>
+          <i className="fa fa-angle-right"></i>
+        </button>
+        <ul className="dropdown-list">
+          <li>
+            <Link href="/cement">
+              <a>Cements</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/electronic">
+              <a>Electronics</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/buildingmaterial">
+              <a>Building Materials</a>
+            </Link>
+          </li>
+        </ul>
+      </li>
+      <li className="dropdown">
+        <ScrollLink
+          activeClass="current"
+          to="blog"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={1000}
+        >
           Blog
         </ScrollLink>
         <button className="dropdown-btn" onClick={handleDropdownStatus}>
@@ -120,6 +137,7 @@ const NavLinks = () => {
           </li>
         </ul>
       </li>
+
       <li className="search-btn search-opener">
         <a href="#">
           <i className="fa fa-search"></i>

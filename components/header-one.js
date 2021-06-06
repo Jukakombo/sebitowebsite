@@ -4,6 +4,16 @@ import { Link as ScrollLink } from "react-scroll";
 import NavLinks from "@components/nav-links";
 import logoDark from "@images/logo-dark.png";
 const HeaderOne = () => {
+  var today = new Date();
+
+  var date =
+    today.getFullYear() + "-" + (today.getMonth() + 1) + "-" + today.getDate();
+
+  var time =
+    today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+  var dateTime = date + " " + time;
+
   const [sticky, setSticky] = useState(false);
 
   const handleScroll = () => {
@@ -25,7 +35,7 @@ const HeaderOne = () => {
       <div className="topbar" id="home">
         <Container>
           <p>
-            <i className="far fa-clock"></i> Mon - Fri: 9:00 am - 06.00pm /
+            <i className="far fa-clock"></i> Mon - Fri: 8:00 am - 06.00pm /
             Closed on Weekends
           </p>
 
@@ -54,14 +64,14 @@ const HeaderOne = () => {
             <div className="header-info">
               <i className="besit-icon-phone"></i>
               <h3>
-                Call Us: <a href="tel:210-123-451">(210) 123-451</a>
+                Call Us: <a href="tel:+2119-27194-949">+211(0)927194949</a>
               </h3>
-              <p>(Sat - Thursday)</p>
+              <p>Date:{dateTime}</p>
             </div>
             <div className="header-info">
               <i className="far fa-map-marker-alt"></i>
-              <h3>380 Konyokonyo Road,</h3>
-              <p>Juba, C.E.S</p>
+              <h3>Gudele 2,</h3>
+              <p>Juba, South Sudan</p>
             </div>
           </div>
         </Container>
@@ -80,7 +90,7 @@ const HeaderOne = () => {
             offset={-70}
             duration={500}
           >
-            Free Consultant <i className="fa fa-arrow-circle-right"></i>
+            Contact Us Now! <i className="fa fa-arrow-circle-right"></i>
           </ScrollLink>
         </Container>
       </nav>

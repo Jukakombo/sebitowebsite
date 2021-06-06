@@ -46,19 +46,19 @@ const Footer = () => {
                     <a href="#">Home</a>
                   </li>
                   <li>
-                    <a href="#">Service</a>
+                    <a href="#services">Service</a>
                   </li>
                   <li>
-                    <a href="#">Our Team</a>
+                    <a href="#team">Our Team</a>
                   </li>
                   <li>
-                    <a href="#">Project</a>
+                    <a href="#project">Project</a>
                   </li>
                   <li>
-                    <a href="#">Our News</a>
+                    <a href="#news">Our News</a>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -68,23 +68,24 @@ const Footer = () => {
               <div className="footer-widget footer-widget__contact">
                 <h3 className="footer-widget__title">Contact Us</h3>
 
-                <p>2450 Nostrand avenue, New</p>
+                <p>Gudele 2, Juba South Sudan</p>
                 <ul className="footer-widget__contact-list list-unstyled">
                   <li>
-                    <a href="mailto:your.info@gmail.com">
+                    <a href="mailto:jbgeneraltrading@gmail.com">
                       <i className="themify-icon-email"></i>
-                      your.info@gmail.com
+                      jbgeneraltrading@gmail.com
                     </a>
                   </li>
                   <li>
-                    <a href="tel:+023-6549-8756">
-                      <i className="themify-icon-headphone-alt"></i> + 023-6549
-                      8756
+                    <a href="tel:+2119-2719-4949">
+                      <i className="themify-icon-headphone-alt"></i> + 211-2719
+                      4949
                     </a>
                   </li>
                   <li>
-                    <a href="#">
-                      <i className="themify-icon-link"></i> www.example.com
+                    <a href="https://sebitowebsite.vercel.app/">
+                      <i className="themify-icon-link"></i>{" "}
+                      www.jbgeneraltradingcoltd.com
                     </a>
                   </li>
                 </ul>
@@ -142,13 +143,13 @@ const Footer = () => {
                 <a href="#">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Service</a>
+                <a href="#services">Service</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </div>
