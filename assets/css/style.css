@@ -35,7 +35,7 @@ font-family: 'Roboto', sans-serif; */
   --thm-font: "Heebo", sans-serif;
   --heading-font: "Roboto", sans-serif;
   --special-font: "Poppins", sans-serif;
-  --primary: #fe0040;
+  --primary: #ea8a2e;
   --primary-rgb: 254, 0, 64;
   --black: #182c44;
   --black-rgb: 24, 44, 68;
@@ -3175,4 +3175,11 @@ h6 {
   background-color: var(--black);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+/* dashboard css start here */
+.dashboard__css :hover {
+  background: green(177, 175, 175);
+  color: red;
+  margin: 10px;
+  background-color: #ea8a2e;
 }

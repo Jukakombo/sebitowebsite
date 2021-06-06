@@ -16,7 +16,7 @@ import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
 const Index = () => {
   return (
-    <Layout pageTitle="Sebit Wholesale">
+    <Layout pageTitle="JB General Trading Co.Ltd">
       <HeaderOne />
       <MobileNav />
       <SliderOne />
