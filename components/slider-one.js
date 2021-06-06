@@ -5,6 +5,10 @@ import SwiperCore, { Autoplay, Pagination, EffectFade } from "swiper";
 import { Link as ScrollLink } from "react-scroll";
 import bgImage1 from "@images/backgrounds/slider-bg-1-1.jpg";
 import bgImage2 from "@images/backgrounds/slider-bg-1-2.jpg";
+import bgImage3 from "@images/backgrounds/slider-bg-1-3.jpg";
+import bgImage4 from "@images/backgrounds/slider-bg-1-4.jpg";
+import bgImage5 from "@images/backgrounds/slider-bg-1-5.jpg";
+import bgImage6 from "@images/backgrounds/slider-bg-1-6.jpg";
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
 const SliderOne = () => {
@@ -99,7 +103,115 @@ const SliderOne = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${bgImage1})` }}
+            style={{ backgroundImage: `url(${bgImage3})` }}
+          ></div>
+
+          <Container>
+            <div className="main-slider__box">
+              <div className="block-title text-left">
+                <p>
+                  <span></span>Brighter Financial
+                </p>
+                <h3>
+                  Future For Your <span>Business</span>
+                </h3>
+              </div>
+
+              <p>
+                Differentiate ourselves from all the other australian vc by the
+                fact that we come from
+              </p>
+              <ScrollLink
+                activeClass="current"
+                className="thm-btn"
+                role="button"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={5000}
+              >
+                More About Us <i className="fa fa-arrow-circle-right"></i>{" "}
+              </ScrollLink>
+            </div>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${bgImage4})` }}
+          ></div>
+
+          <Container>
+            <div className="main-slider__box">
+              <div className="block-title text-left">
+                <p>
+                  <span></span>Brighter Financial
+                </p>
+                <h3>
+                  Future For Your <span>Business</span>
+                </h3>
+              </div>
+
+              <p>
+                Differentiate ourselves from all the other australian vc by the
+                fact that we come from
+              </p>
+              <ScrollLink
+                activeClass="current"
+                className="thm-btn"
+                role="button"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={5000}
+              >
+                More About Us <i className="fa fa-arrow-circle-right"></i>{" "}
+              </ScrollLink>
+            </div>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${bgImage5})` }}
+          ></div>
+
+          <Container>
+            <div className="main-slider__box">
+              <div className="block-title text-left">
+                <p>
+                  <span></span>Brighter Financial
+                </p>
+                <h3>
+                  Future For Your <span>Business</span>
+                </h3>
+              </div>
+
+              <p>
+                Differentiate ourselves from all the other australian vc by the
+                fact that we come from
+              </p>
+              <ScrollLink
+                activeClass="current"
+                className="thm-btn"
+                role="button"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={5000}
+              >
+                More About Us <i className="fa fa-arrow-circle-right"></i>{" "}
+              </ScrollLink>
+            </div>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${bgImage6})` }}
           ></div>
 
           <Container>

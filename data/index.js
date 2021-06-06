@@ -9,8 +9,8 @@ export const BLOG_DATA = [
   {
     image: blog1,
     category: "Inside Wholesale",
-    author: "Example Sarah",
-    date: "May 17, 2020",
+    author: "Alison Juka",
+    date: "07 06, 2021",
     title: "Enjoying business with Sebit ",
     text: " add some content eg.We help ambitious businesses like yours generate more profits",
     link: "/blog-details",
@@ -95,6 +95,7 @@ export const BLOG_PAGE_DATA = [
 import project1 from "@images/projects/project-1-1.jpg";
 import project2 from "@images/projects/project-1-2.jpg";
 import project3 from "@images/projects/project-1-3.jpg";
+
 export const PROJECT_DATA = [
   {
     title: "Award-Winning Work",
