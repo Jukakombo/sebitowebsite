@@ -10,23 +10,11 @@ const ContactFunction = () => {
 
   return (
     <div>
-      <h1>This is a Contact-function✔✔✔</h1>
+      <h1>This is a Contact-function✔✔✔hello</h1>
       {realtimeMessages?.docs.map((message) => (
-        <div key={message.id} id={message.id}>
-          <h1> {message.data().name}</h1>
-          <ContactCard
-            name={message.data().name}
-            timestamp={message.data().timestamp}
-            email={message.data().email}
-            phone={message.data().phone}
-            address={message.data().address}
-            company={message.data().company}
-            subject={message.data().subject}
-            item={message.data().item}
-            quantity={message.data().quantity}
-            message={message.data().message}
-          />
-        </div>
+        <h1 key={message.id} id={message.id}>
+          Alison Juka {message.data().name}
+        </h1>
       ))}
     </div>
   );
