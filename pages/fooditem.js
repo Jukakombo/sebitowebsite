@@ -2,17 +2,17 @@ import React from "react";
 import Layout from "@components/layout";
 import HeaderOne from "@components/header-one";
 import MobileNav from "@components/mobile-nav";
-import BuildingMaterials from "@components/building-materials";
+import FoodItem from "@components/food-item";
 import Footer from "@components/footer";
-const Buildingmaterial = () => {
+const Fooditem = () => {
   return (
     <Layout pageTitle="JB General Trading Co.Ltd">
       <HeaderOne />
-
-      <BuildingMaterials />
+      <MobileNav />
+      <FoodItem />
       <Footer />
     </Layout>
   );
 };
 
-export default Buildingmaterial;
+export default Fooditem;

@@ -89,20 +89,16 @@ const NavLinks = () => {
         </button>
         <ul className="dropdown-list">
           <li>
-            <Link href="/cement">
-              <a>Cements</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/electronic">
-              <a>Electronics</a>
-            </Link>
-          </li>
-          <li>
             <Link href="/buildingmaterial">
-              <a>Building Materials</a>
+              <a>Building Material</a>
             </Link>
           </li>
+          <li>
+            <Link href="/fooditem">
+              <a>Food-Item</a>
+            </Link>
+          </li>
+          
         </ul>
       </li>
       <li className="dropdown">

@@ -2,10 +2,10 @@ import React from "react";
 import Layout from "@components/layout";
 import HeaderOne from "@components/header-one";
 import MobileNav from "@components/mobile-nav";
-
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
 import Link from "next/link";
+
 const Index = () => {
   return (
     <Layout pageTitle="JB General trading Co.Ltd">

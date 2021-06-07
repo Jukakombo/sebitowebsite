@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Container, Row, Col } from "react-bootstrap";
 import personImage from "@images/resources/contact-person-1-1.png";
-import db from "../firebase";
+import { db } from "../firebase";
 import firebase from "firebase";
 import { useRouter } from "next/router";
 
@@ -24,7 +24,7 @@ const ContactForm = () => {
 
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
     });
-    router.push("/admin");
+    router.push("/success");
   });
 
   return (

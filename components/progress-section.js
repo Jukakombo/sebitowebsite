@@ -1,5 +1,6 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import ContactCard from "./ContactCard";
 
 const ProgressSection = () => {
   return (
@@ -62,6 +63,7 @@ const ProgressSection = () => {
             </div>
             <h3>Organization</h3>
           </div>
+          <ContactCard />
         </div>
       </div>
     </section>
