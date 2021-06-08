@@ -1,10 +1,38 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import blogDetailsImage1 from "@images/blog/blog-d-1.jpg";
 import blogDetailsImage2 from "@images/blog/blog-d-2.jpg";
 import footerGallery1 from "@images/resources/footer-g-1-1.jpg";
 import footerGallery2 from "@images/resources/footer-g-1-2.jpg";
 import footerGallery3 from "@images/resources/footer-g-1-3.jpg";
+import db from "../firebase";
+import { useForm } from "react-hook-form";
+import { useRouter } from "next/router";
+import firebase from "firebase";
 const BlogContent = () => {
+  const [comments, setComments] = useState([]);
+
+  const router = useRouter();
+  const { register, handleSubmit, errors, reset } = useForm();
+
+  const onSubmit = handleSubmit((formData) => {
+    // alert(JSON.stringify(formData));
+    db.collection("comments").add({
+      name: formData.name,
+      email: formData.email,
+      subject: formData.subject,
+      website: formData.website,
+      comment: formData.comment,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+    });
+    router.push("/blog-details");
+  });
+  useEffect(() => {
+    db.collection("comments")
+      .orderBy("timestamp", "desc")
+      .onSnapshot((snapshot) =>
+        setComments(snapshot.docs.map((doc) => doc.data()))
+      );
+  }, []);
   return (
     <section className="blog-details">
       <div className="container">
@@ -121,22 +149,24 @@ const BlogContent = () => {
 
               <div className="comment-one__single">
                 <i className="fa fa-user"></i>
-                <div className="comment-one__content">
-                  <h3>Hilda Hughes</h3>
-                  <span>17 Nov. 2020</span>
-                  <hr />
-                  <p>
-                    Leverage agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approaches to corporate
-                    strategy foster collaborative thinking to further the
-                    overall value proposition. Organically grow the holistic
-                    world view of disruptive innovation via workplace diversity
-                    and empowerment.
-                  </p>
-                  <a href="#" className="thm-btn">
-                    Reply
-                  </a>
-                </div>
+
+                {comments.map((comment) => (
+                  <div
+                    key={comment.id}
+                    id={comment.id}
+                    className="comment-one__content"
+                  >
+                    <h3>{comment.name}</h3>
+                    <span>17 Nov. 2020</span>
+                    <hr />
+                    <p>
+                      {comment.comment}
+                    </p>
+                    <a href="#" className="thm-btn">
+                      Reply
+                    </a>
+                  </div>
+                ))}
               </div>
               <div className="comment-one__single">
                 <i className="fa fa-user"></i>
@@ -164,26 +194,62 @@ const BlogContent = () => {
               </div>
 
               <div className="row">
-                <div className="col-md-6">
-                  <input type="text" placeholder="Your Name" />
-                </div>
-                <div className="col-md-6">
-                  <input type="text" placeholder="Your Email" />
-                </div>
-                <div className="col-md-6">
-                  <input type="text" placeholder="Subject" />
-                </div>
-                <div className="col-md-6">
-                  <input type="text" placeholder="Website" />
-                </div>
-                <div className="col-md-12">
-                  <textarea placeholder="Comment Message"></textarea>
-                </div>
-                <div className="col-md-12">
-                  <button type="submit" className="thm-btn">
-                    Submit Comment
-                  </button>
-                </div>
+                <form className="row" onSubmit={onSubmit}>
+                  <div className="col-md-6">
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      {...register("name", {
+                        required: true,
+                        messsage: "Name is required",
+                      })}
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <input
+                      type="text"
+                      placeholder="Your Email"
+                      {...register("email", {
+                        required: true,
+                        messsage: "Email is required",
+                      })}
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      {...register("subject", {
+                        required: true,
+                        messsage: "Subject is required",
+                      })}
+                    />
+                  </div>
+                  <div className="col-md-6">
+                    <input
+                      type="text"
+                      placeholder="Website"
+                      {...register("website", {
+                        required: true,
+                        messsage: "Website is required",
+                      })}
+                    />
+                  </div>
+                  <div className="col-md-12">
+                    <textarea
+                      placeholder="Comment Message"
+                      {...register("comment", {
+                        required: true,
+                        messsage: "Comment Message is required",
+                      })}
+                    ></textarea>
+                  </div>
+                  <div className="col-md-12">
+                    <button type="submit" className="thm-btn">
+                      Submit Comment
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>

@@ -117,33 +117,33 @@ export const PROJECT_DATA = [
 export const SERVICE_DATA = [
   {
     icon: "besit-icon-document",
-    title: "Business Promotion",
-    text: "We take pride fighting for tre not big insurance companies refu changing faster.",
+    title: "Mission",
+    text: "JB General Trading Co. Ltd is committed to the provision and marketing of cheaper, quality building materials and food items in South Sudan and working towards building a long term relationship with its customers by ensuring total customers satisfaction.",
   },
   {
     icon: "besit-icon-leader",
-    title: "Business Analysis",
-    text: "We take pride fighting for tre not big insurance companies refu changing faster.",
+    title: "Vision",
+    text: "Our aim is to provide affordable building materials and food items in South Sudan. ",
   },
   {
     icon: "besit-icon-investor",
-    title: "High Quality Service",
-    text: "We take pride fighting for tre not big insurance companies refu changing faster.",
+    title: "Company Profile",
+    text: "JB General Trading Co. Ltd is a duly registered company under the company’s act in the ministry of trade and commerce, Republic of South Sudan.It is a leading marketing company of building materials and food items in South Sudan. As we are focused in putting smile in the faces of our customers.",
   },
   {
     icon: "besit-icon-seo-report",
-    title: "Reports Analysis",
-    text: "We take pride fighting for tre not big insurance companies refu changing faster.",
+    title: "Corporate policy",
+    text: "Our policy is to continuously satisfy our customers through our affordable and quality products with effective quality management system.",
   },
   {
     icon: "besit-icon-person",
-    title: "Project Reporting",
-    text: "We take pride fighting for tre not big insurance companies refu changing faster.",
+    title: "Safety and health",
+    text: "Our company has compiled a stringent safety and healthy practices to ensure that our employees work safely and harmoniously without risk of accidents.",
   },
   {
     icon: "besit-icon-medal",
-    title: "Market Research",
-    text: "We take pride fighting for tre not big insurance companies refu changing faster.",
+    title: "Product delivery",
+    text: "We are committed in delivery of our products on time and as requested by our customers free of charge to their locations within Juba.",
   },
 ];
 

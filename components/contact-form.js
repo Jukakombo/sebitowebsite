@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Container, Row, Col } from "react-bootstrap";
 import personImage from "@images/resources/contact-person-1-1.png";
-import { db } from "../firebase";
+import db from "../firebase";
 import firebase from "firebase";
 import { useRouter } from "next/router";
 
@@ -17,6 +17,7 @@ const ContactForm = () => {
       phone: formData.phone,
       item: formData.item,
       subject: formData.subject,
+      email: formData.email,
       message: formData.message,
       quantity: formData.quantity,
       company: formData.company,
@@ -63,7 +64,7 @@ const ContactForm = () => {
                       <input
                         type="text"
                         placeholder="Email ID"
-                        {...register("emails", {
+                        {...register("email", {
                           required: true,
                           messsage: "Email is required",
                         })}

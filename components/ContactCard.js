@@ -1,20 +1,29 @@
 import React from "react";
 
 function ContactCard({
-  name,
   email,
-  subject,
   message,
-  item,
-  quantity,
-  address,
-  company,
   phone,
-  timestamp,
+  name,
+  time,
+  item,
+  company,
+  address,
+  subject,
+  quantity,
 }) {
   return (
     <div>
-      <h1>Message{phone} box</h1>
+      <h1>Time: </h1>
+      <h1>Name: {name}</h1>
+      <h1>Email: {email}</h1>
+      <h1>phone: {phone}</h1>
+      <h1>Address: {address}</h1>
+      <h1>Company: {company}</h1>
+      <h1>Item Description:{item}</h1>
+      <h1>Quantity:{quantity}</h1>
+      <h1>Subject: {subject}</h1>
+      <h1>Message: {message}</h1>
     </div>
   );
 }

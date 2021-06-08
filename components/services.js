@@ -17,7 +17,7 @@ const Services = () => {
       <div className="container">
         <div className="block-title text-center">
           <p>
-            <span></span>Why Choose Us
+            <span></span>Who we are
           </p>
           <h3>
             Start Your Business with brainstorming <br />{" "}
