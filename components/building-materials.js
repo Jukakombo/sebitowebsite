@@ -2,14 +2,14 @@ function BuildingMaterials() {
   return (
     <div>
       <main>
-        <div class="album py-5 bg-light">
-          <div class="container">
+        <div className="album py-5 bg-light">
+          <div className="container">
             <h1>Building Materials</h1>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-              <div class="col">
-                <div class="card shadow-sm">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="https://image.shutterstock.com/image-vector/cement-bags-paper-sacks-isolated-600w-704486212.jpg"
@@ -25,36 +25,36 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -70,36 +70,36 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,37 +115,37 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -161,36 +161,36 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -206,36 +206,36 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -251,37 +251,37 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -297,36 +297,36 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -342,36 +342,36 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm">
+              <div className="col">
+                <div className="card shadow-sm">
                   <svg
-                    class="bd-placeholder-img card-img-top"
+                    className="bd-placeholder-img card-img-top"
                     width="100%"
                     height="225"
                     xmlns="http://www.w3.org/2000/svg"
@@ -387,28 +387,28 @@ function BuildingMaterials() {
                     </text>
                   </svg>
 
-                  <div class="card-body">
-                    <p class="card-text">
+                  <div className="card-body">
+                    <p className="card-text">
                       This is a wider card with supporting text below as a
                       natural lead-in to additional content. This content is a
                       little bit longer.
                     </p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
+                    <div className="d-flex justify-content-between align-items-center">
+                      <div className="btn-group">
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           View
                         </button>
                         <button
                           type="button"
-                          class="btn btn-sm btn-outline-secondary"
+                          className="btn btn-sm btn-outline-secondary"
                         >
                           Edit
                         </button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small className="text-muted">9 mins</small>
                     </div>
                   </div>
                 </div>

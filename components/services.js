@@ -19,10 +19,15 @@ const Services = () => {
           <p>
             <span></span>Who we are
           </p>
-          <h3>
-            Start Your Business with brainstorming <br />{" "}
-            <span>Product Anything.</span>
-          </h3>
+          <h5>
+            JB General Trading Co. Ltd <br />{" "}
+            <span>
+              is administered and operated by a fully experienced and qualified
+              professional team of managers, marketers, staff and skillful
+              working force to enhance best service delivery to our esteem
+              customers.
+            </span>
+          </h5>
         </div>
         <div className="service-one__3-col">
           {SERVICE_DATA.map((service, index) => (

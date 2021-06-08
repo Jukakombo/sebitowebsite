@@ -22,12 +22,12 @@ const Index = () => {
       <SliderOne />
       <About />
       <Services />
-      <Project />
 
       <Team />
       <ContactTop />
       <ContactForm />
-      <Price />
+
+      <Project />
       <BlogHome />
       <Subscribe />
       <Footer />

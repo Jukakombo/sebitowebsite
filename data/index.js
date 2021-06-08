@@ -95,13 +95,20 @@ export const BLOG_PAGE_DATA = [
 import project1 from "@images/projects/project-1-1.jpg";
 import project2 from "@images/projects/project-1-2.jpg";
 import project3 from "@images/projects/project-1-3.jpg";
+import project4 from "@images/projects/project-1-4.jpg";
 
 export const PROJECT_DATA = [
   {
     title: "Award-Winning Work",
     text: "Business Strategy",
+    image: project4,
+  },
+  {
+    title: "Award-Winning Work",
+    text: "Business Strategy",
     image: project1,
   },
+
   {
     title: "Award-Winning Work",
     text: "Business Strategy",
