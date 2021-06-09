@@ -2279,6 +2279,12 @@ h6 {
   transform: translateY(-50%);
   transition: all 500ms ease;
 }
+.team-one__single:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  border: 2px #182c44 solid;
+}
 .team-one__single:hover .team-one__social {
   opacity: 1;
   visibility: visible;

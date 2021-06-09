@@ -158,6 +158,7 @@ import team1 from "@images/team/team-1-1.jpg";
 import team2 from "@images/team/team-1-2.jpg";
 import team3 from "@images/team/team-1-3.jpg";
 import team4 from "@images/team/team-1-4.jpg";
+
 export const TEAM_DATA = [
   {
     image: team1,
@@ -178,6 +179,57 @@ export const TEAM_DATA = [
     image: team4,
     name: "Francis Parks",
     designation: "Back End Developer",
+  },
+];
+import product1 from "@images/product/product-1-1.jpg";
+import product2 from "@images/product/product-1-2.jpg";
+import product3 from "@images/product/product-1-3.jpg";
+import product4 from "@images/product/product-1-4.jpg";
+import product5 from "@images/product/product-1-5.jpg";
+import product6 from "@images/product/product-1-6.jpg";
+import product7 from "@images/product/product-1-7.jpg";
+import product8 from "@images/product/product-1-8.jpg";
+
+export const PRODUCT_DATA = [
+  {
+    image: product1,
+    name: "Cement",
+    designation: "Descripption goes here",
+  },
+  {
+    image: product2,
+    name: "FootItems",
+    designation: "Description goes here......",
+  },
+  {
+    image: product3,
+    name: "Non food Items",
+    designation: "Description goes here......",
+  },
+  {
+    image: product4,
+    name: "Another product here",
+    designation: "Description goes here......",
+  },
+  {
+    image: product5,
+    name: "Another product here",
+    designation: "Description goes here......",
+  },
+  {
+    image: product6,
+    name: "Another product here",
+    designation: "Description goes here......",
+  },
+  {
+    image: product7,
+    name: "Another product here",
+    designation: "Description goes here......",
+  },
+  {
+    image: product8,
+    name: "Another product here",
+    designation: "Description goes here......",
   },
 ];
 

@@ -9,11 +9,14 @@ const Team = () => {
       <Container>
         <div className="block-title text-center">
           <p>
-            <span></span>Team Member
+            <span></span>OUR TEAM MEMBERS
           </p>
-          <h3>
-            We bring solution to your <br /> your <span>Problem</span>
-          </h3>
+          <h4>
+            JB General Trading Co. Ltd is administered and operated by a fully
+            experienced and qualified professional team of managers, marketers,
+            staff and skillful working force to enhance best service delivery to
+            our <br /> esteem <span>customers.</span>
+          </h4>
         </div>
 
         <div className="team-one__4-col">

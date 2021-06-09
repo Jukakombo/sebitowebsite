@@ -14,12 +14,14 @@ import ContactForm from "@components/contact-form";
 import BlogHome from "@components/blog-home";
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
+import OurProduct from "@components/our-products";
 const Index = () => {
   return (
     <Layout pageTitle="JB General Trading Co.Ltd">
       <HeaderOne />
       <MobileNav />
       <SliderOne />
+      <OurProduct />
       <About />
       <Services />
 
