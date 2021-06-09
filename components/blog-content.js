@@ -12,7 +12,7 @@ const BlogContent = () => {
   const [comments, setComments] = useState([]);
 
   const router = useRouter();
-  const { register, handleSubmit, errors, reset } = useForm();
+  const { register, handleSubmit } = useForm();
 
   const onSubmit = handleSubmit((formData) => {
     // alert(JSON.stringify(formData));
@@ -144,49 +144,27 @@ const BlogContent = () => {
             </div>
             <div className="comment-one">
               <div className="block-title text-left">
-                <h3>2 Comments</h3>
+                <h3>Comments</h3>
               </div>
+              {comments.map((comment) => (
+                <div
+                  className="comment-one__single"
+                  key={comment.id}
+                  id={comment.id}
+                >
+                  <i className="fa fa-user"></i>
 
-              <div className="comment-one__single">
-                <i className="fa fa-user"></i>
-
-                {comments.map((comment) => (
-                  <div
-                    key={comment.id}
-                    id={comment.id}
-                    className="comment-one__content"
-                  >
+                  <div className="comment-one__content">
                     <h3>{comment.name}</h3>
                     <span>17 Nov. 2020</span>
                     <hr />
-                    <p>
-                      {comment.comment}
-                    </p>
+                    <p>{comment.comment}</p>
                     <a href="#" className="thm-btn">
                       Reply
                     </a>
                   </div>
-                ))}
-              </div>
-              <div className="comment-one__single">
-                <i className="fa fa-user"></i>
-                <div className="comment-one__content">
-                  <h3>Grace Christensen</h3>
-                  <span>22 Nov. 2020</span>
-                  <hr />
-                  <p>
-                    Leverage agile frameworks to provide a robust synopsis for
-                    high level overviews. Iterative approaches to corporate
-                    strategy foster collaborative thinking to further the
-                    overall value proposition. Organically grow the holistic
-                    world view of disruptive innovation via workplace diversity
-                    and empowerment.
-                  </p>
-                  <a href="#" className="thm-btn">
-                    Reply
-                  </a>
                 </div>
-              </div>
+              ))}
             </div>
             <div className="comment-form">
               <div className="block-title text-left">

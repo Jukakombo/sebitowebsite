@@ -9,7 +9,7 @@ import MobileNav from "@components/mobile-nav";
 
 const BlogDetails = () => {
   return (
-    <Layout pageTitle="Sebit Wholesale">
+    <Layout pageTitle="JB General Trading Co. Ltd">
       <HeaderTwo />
       <MobileNav />
       <PageHeader title={`Blog Details`} />
