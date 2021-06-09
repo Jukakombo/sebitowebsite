@@ -14,7 +14,7 @@ function ContactCard({
 }) {
   return (
     <div>
-      <h1>Time: </h1>
+      <h1>Time:{time} </h1>
       <h1>Name: {name}</h1>
       <h1>Email: {email}</h1>
       <h1>phone: {phone}</h1>

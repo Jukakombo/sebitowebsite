@@ -156,7 +156,11 @@ const BlogContent = () => {
 
                   <div className="comment-one__content">
                     <h3>{comment.name}</h3>
-                    <span>17 Nov. 2020</span>
+                    <span>
+                      {new Date(
+                        comment.timestamp?.seconds * 1000
+                      ).toUTCString()}
+                    </span>
                     <hr />
                     <p>{comment.comment}</p>
                     <a href="#" className="thm-btn">

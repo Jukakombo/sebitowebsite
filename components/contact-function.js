@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useCollection } from "react-firebase-hooks/firestore";
 import db from "../firebase";
 import ContactCard from "./ContactCard";
+import firebase from "firebase";
 
 const ContactFunction = () => {
   const [messages, setMessages] = useState([]);
@@ -19,6 +20,7 @@ const ContactFunction = () => {
   return (
     <div>
       <h1>This is a Contact-function✔✔✔hello</h1>
+
       {messages.map((message) => (
         <ContactCard
           key={message.id}
@@ -31,7 +33,7 @@ const ContactFunction = () => {
           name={message.name}
           subject={message.subject}
           item={message.item}
-          time={message.timestamp}
+          time={new Date(message.timestamp?.seconds * 1000).toUTCString()}
           company={message.company}
         />
       ))}
