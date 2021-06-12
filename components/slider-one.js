@@ -10,6 +10,8 @@ import bgImage4 from "@images/backgrounds/slider-bg-1-4.jpg";
 import bgImage5 from "@images/backgrounds/slider-bg-1-5.jpg";
 import bgImage6 from "@images/backgrounds/slider-bg-1-6.jpg";
 import bgImage7 from "@images/backgrounds/slider-bg-1-7.jpg";
+import bgImage8 from "@images/backgrounds/slider-bg-1-8.jpg";
+
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
 const SliderOne = () => {
@@ -66,7 +68,7 @@ const SliderOne = () => {
         <SwiperSlide>
           <div
             className="image-layer"
-            style={{ backgroundImage: `url(${bgImage1})` }}
+            style={{ backgroundImage: `url(${bgImage8})` }}
           ></div>
 
           <Container>
@@ -178,6 +180,40 @@ const SliderOne = () => {
               </div>
 
               <p>Hey 👏 welcome to our store</p>
+              <ScrollLink
+                activeClass="current"
+                className="thm-btn"
+                role="button"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={5000}
+              >
+                More About Us <i className="fa fa-arrow-circle-right"></i>{" "}
+              </ScrollLink>
+            </div>
+          </Container>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${bgImage1})` }}
+          ></div>
+
+          <Container>
+            <div className="main-slider__box">
+              <div className="block-title text-left">
+                <p>
+                  <span></span>Pricing Policy
+                </p>
+              </div>
+
+              <p>
+                Our price structure is the lowest in the market. We keep
+                striving to maintain our pricing policy to put smiles in the
+                faces of our valued customers. "Your Joy Is Our Satisfaction".
+              </p>
               <ScrollLink
                 activeClass="current"
                 className="thm-btn"
