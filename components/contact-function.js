@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useCollection } from "react-firebase-hooks/firestore";
+
 import db from "../firebase";
 import ContactCard from "./ContactCard";
 import firebase from "firebase";
@@ -19,7 +19,7 @@ const ContactFunction = () => {
 
   return (
     <div>
-      <h1>Contact-Dashboard</h1>
+      <h1 className="text-center">Contact-Dashboard</h1>
 
       {messages.map((message) => (
         <ContactCard
