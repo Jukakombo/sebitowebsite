@@ -35,7 +35,8 @@ const HeaderOne = () => {
       <div className="topbar" id="home">
         <Container>
           <p>
-            <i className="far fa-clock"></i> Working hours from 7:00 am - 05.00pm Daily
+            <i className="far fa-clock"></i> Working hours from 7:00 am -
+            05.00pm Daily
           </p>
 
           <div className="topbar-social">
