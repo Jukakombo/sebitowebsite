@@ -203,7 +203,16 @@ export const NONE_FOOD_PRODUCT_DATA = [
     _id: "1",
     image: product3,
     name: "Non Food Items",
-    designation: "Description goes here......",
+    designation:
+      "Paper Plates,Plastic Utensils,Napkins, Paper Towels,Feminine Products,Diapers,Wet Wipes,Kleenex",
+  },
+];
+export const DRINK_PRODUCT_DATA = [
+  {
+    _id: "1",
+    image: product4,
+    name: "Cold & Alcoholic Drinks ",
+    designation: "Coming soon",
   },
 ];
 export const FOOD_PRODUCT_DATA = [
@@ -296,13 +305,14 @@ export const NONE_FOOD_DATA = [
   {
     _id: "1",
     image: nonefood1,
-    name: "Building Materials",
-    designation: "Descripption goes here",
+    name: "Detergents",
+    designation:
+      " Pesticides, cleaners, paints, idle machinery in a separate area, away from foods.",
   },
   {
     _id: "2",
     image: nonefood2,
-    name: "Food Items",
+    name: "Beuty-Hygiene",
     designation: "Description goes here......",
   },
   {

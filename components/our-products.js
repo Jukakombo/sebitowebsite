@@ -2,12 +2,14 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import {
   BUILDING_PRODUCT_DATA,
+  DRINK_PRODUCT_DATA,
   FOOD_PRODUCT_DATA,
   NONE_FOOD_PRODUCT_DATA,
 } from "@data/index";
 import OurProductCard from "./our-product-card-building";
 import OurProductCardFoodItem from "./our-product-card-food";
 import OurProductNoneFoodItemCard from "./our-product-card-nonefooditem";
+import DrinksCard from "./our-product-drinks-card";
 
 const OurProducts = () => {
   return (
@@ -43,6 +45,9 @@ const OurProducts = () => {
               key={`team-card-key-${food._id}`}
               data={food}
             />
+          ))}
+          {DRINK_PRODUCT_DATA.map((drink) => (
+            <DrinksCard key={`team-card-key-${drink._id}`} data={drink} />
           ))}
         </div>
       </Container>
