@@ -1,17 +1,22 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { NONE_FOOD_DATA } from "@data/index";
+import { useRouter } from "next/router";
+import NoneFoodItemCard from "./none-food-items-card";
+import Link from "next/link";
 
-import { BUILDING_DATA} from "@data/index";
-
-import BuildingMaterialCard from "./building-material-card";
-
-const BuildingMaterial = () => {
+const NoneFoodItem = () => {
+  const router = useRouter();
+  const nonefood = (e) => {
+    e.preventDefault();
+    router.push("/nonfooditems");
+  };
   return (
     <section className="team-one" id="team">
       <Container>
         <div className="block-title text-center">
           <p>
-            <span></span>BUILDING MATERIALS
+            <span></span>NONE FOOD ITEMS
           </p>
           <h4>
             JB General Trading Co. Ltd work hand-to-hand with our producers to
@@ -21,8 +26,8 @@ const BuildingMaterial = () => {
         </div>
 
         <div className="team-one__4-col">
-          {BUILDING_DATA.map((team, index) => (
-            <BuildingMaterialCard key={`team-card-key-${index}`} data={team} />
+          {NONE_FOOD_DATA.map((team, index) => (
+            <NoneFoodItemCard key={`team-card-key-${index}`} data={team} />
           ))}
         </div>
       </Container>
@@ -30,4 +35,4 @@ const BuildingMaterial = () => {
   );
 };
 
-export default BuildingMaterial;
+export default NoneFoodItem;

@@ -12,29 +12,29 @@ const Project = () => {
     breakpoints: {
       0: {
         spaceBetween: 0,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       375: {
         spaceBetween: 0,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       576: {
         spaceBetween: 0,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       768: {
         spaceBetween: 30,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       992: {
         spaceBetween: 30,
-        slidesPerView: 1
+        slidesPerView: 1,
       },
       1200: {
         spaceBetween: 30,
-        slidesPerView: 1
-      }
-    }
+        slidesPerView: 1,
+      },
+    },
   };
   return (
     <section className="project-one" id="project">
@@ -44,17 +44,15 @@ const Project = () => {
             <Col md={12} lg={6}>
               <div className="block-title text-left">
                 <p>
-                  <span></span>Best Portfolio
+                  <span></span>Our Location
                 </p>
-                <h3>Completed Projects</h3>
+                <h3>Gudele 2, Juba South Sudan</h3>
               </div>
             </Col>
             <Col md={12} lg={6}>
               <p className="project-one__top-text">
-                Aliquam sodales justo sit amet urna auctor scelerisquinterdum
-                leo anet temp enim esent egetis hendrerit vel nibh vitae ornar
-                sem velit aliquam facilisivitae finibus risus feslin is
-                hendrerit vel nibh vitae ornar uspendisse
+                Give the details about your store/wholesaler location eg. gudele
+                2 at bus park oposite ............ etc
               </p>
             </Col>
           </Row>

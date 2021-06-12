@@ -38,16 +38,13 @@ const SliderOne = () => {
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Working hard to solve your problems
+                  <span></span> Future Of Our Company
                 </p>
-                <h3>
-                  Proud to grow your <span>Business</span>
-                </h3>
               </div>
 
               <p>
-                Bro you can put some of your text/content here that can attract
-                your customer .... etc
+                To become a leading marketer of building materials and food
+                items and the best service delivery company in South Sudan.
               </p>
               <ScrollLink
                 activeClass="current"
@@ -74,16 +71,14 @@ const SliderOne = () => {
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Exaple price down
+                  <span></span>Working Hander To Solve Your Problems
                 </p>
-                <h3>
-                  Future For Your <span>Business</span>
-                </h3>
               </div>
 
               <p>
-                Differentiate ourselves from all the other australian vc by the
-                fact that we come from
+                We are focused more in solving your building and feeding
+                problems by our affordable pricing policy. "Let every family
+                build a dreamed house and have something to eat" is our desire.
               </p>
               <ScrollLink
                 activeClass="current"
@@ -110,16 +105,14 @@ const SliderOne = () => {
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Brighter Financial
+                  <span></span>Pricing Policy
                 </p>
-                <h3>
-                  Future For Your <span>Business</span>
-                </h3>
               </div>
 
               <p>
-                Differentiate ourselves from all the other australian vc by the
-                fact that we come from
+                Our price structure is the lowest in the market. We keep
+                striving to maintain our pricing policy to put smiles in the
+                faces of our valued customers. "Your Joy Is Our Satisfaction".
               </p>
               <ScrollLink
                 activeClass="current"
@@ -141,22 +134,15 @@ const SliderOne = () => {
             className="image-layer"
             style={{ backgroundImage: `url(${bgImage4})` }}
           ></div>
-
           <Container>
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Brighter Financial
+                  <span></span>Welcome
                 </p>
-                <h3>
-                  Future For Your <span>Business</span>
-                </h3>
               </div>
 
-              <p>
-                Differentiate ourselves from all the other australian vc by the
-                fact that we come from
-              </p>
+              <p>Hey 👏 welcome to our store</p>
               <ScrollLink
                 activeClass="current"
                 className="thm-btn"
@@ -177,22 +163,15 @@ const SliderOne = () => {
             className="image-layer"
             style={{ backgroundImage: `url(${bgImage5})` }}
           ></div>
-
           <Container>
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Brighter Financial
+                  <span></span>Welcome
                 </p>
-                <h3>
-                  Future For Your <span>Business</span>
-                </h3>
               </div>
 
-              <p>
-                Differentiate ourselves from all the other australian vc by the
-                fact that we come from
-              </p>
+              <p>Hey 👏 welcome to our store</p>
               <ScrollLink
                 activeClass="current"
                 className="thm-btn"
@@ -218,17 +197,11 @@ const SliderOne = () => {
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Brighter Financial
+                  <span></span>Welcome
                 </p>
-                <h3>
-                  Future For Your <span>Business</span>
-                </h3>
               </div>
 
-              <p>
-                Differentiate ourselves from all the other australian vc by the
-                fact that we come from
-              </p>
+              <p>Hey 👏 welcome to our store</p>
               <ScrollLink
                 activeClass="current"
                 className="thm-btn"

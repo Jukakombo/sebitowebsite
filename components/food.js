@@ -1,11 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import { BUILDING_DATA} from "@data/index";
+import { BUILDING_DATA, PRODUCT_DATA, TEAM_DATA } from "@data/index";
 
 import BuildingMaterialCard from "./building-material-card";
 
-const BuildingMaterial = () => {
+const Food = () => {
   return (
     <section className="team-one" id="team">
       <Container>
@@ -30,4 +30,4 @@ const BuildingMaterial = () => {
   );
 };
 
-export default BuildingMaterial;
+export default Food;

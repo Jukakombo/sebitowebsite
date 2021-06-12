@@ -71,9 +71,9 @@ const Footer = () => {
                 <p>Gudele 2, Juba South Sudan</p>
                 <ul className="footer-widget__contact-list list-unstyled">
                   <li>
-                    <a href="mailto:jbgeneraltrading@gmail.com">
+                    <a href="mailto: jbgeneraltradingco@gmail.com">
                       <i className="themify-icon-email"></i>
-                      jbgeneraltrading@gmail.com
+                      jbgeneraltradingco@gmail.com
                     </a>
                   </li>
                   <li>

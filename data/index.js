@@ -162,13 +162,15 @@ import team4 from "@images/team/team-1-4.jpg";
 export const TEAM_DATA = [
   {
     image: team1,
-    name: "Sebit",
-    designation: "Founder and CEO of .....",
+    name: "Cosmos Joseph Juka",
+    designation:
+      "Founder and General Manager JB General Trading Co. Ltd. He is an astute businessman with vaste knowledge in marketing policies and has an excellent customer care relationship. Till date, he is actively responsible for the day-to-day marketing activities of the company.",
   },
   {
     image: team2,
-    name: "Alyson Juka",
-    designation: "Full stack web developer",
+    name: "Peter Bilongo",
+    designation:
+      "Co-founder and General Manager JB General Trading Co. Ltd. He is an experienced marketer and the brain behind the success of the company. Till date, he is also actively responsible for the day-to-day marketing activities of the company.",
   },
   {
     image: team3,
@@ -185,49 +187,134 @@ import product1 from "@images/product/product-1-1.jpg";
 import product2 from "@images/product/product-1-2.jpg";
 import product3 from "@images/product/product-1-3.jpg";
 import product4 from "@images/product/product-1-4.jpg";
-import product5 from "@images/product/product-1-5.jpg";
-import product6 from "@images/product/product-1-6.jpg";
-import product7 from "@images/product/product-1-7.jpg";
-import product8 from "@images/product/product-1-8.jpg";
 
-export const PRODUCT_DATA = [
+export const BUILDING_PRODUCT_DATA = [
   {
+    _id: "1",
     image: product1,
-    name: "Cement",
-    designation: "Descripption goes here",
+    name: "Building Materials",
+    designation:
+      " Cement, Iron Bars, Iron Sheets, Iron Plates, Iron Pipes, Tiles, Toilet Fittings, Electrical Fittings, Nails, Binding Wires, Nails ...",
   },
+];
+
+export const NONE_FOOD_PRODUCT_DATA = [
   {
-    image: product2,
-    name: "FootItems",
-    designation: "Description goes here......",
-  },
-  {
+    _id: "1",
     image: product3,
-    name: "Non food Items",
+    name: "Non Food Items",
     designation: "Description goes here......",
   },
+];
+export const FOOD_PRODUCT_DATA = [
   {
+    _id: "1",
+    image: product2,
+    name: "Food Items",
+    designation:
+      "Maize Flour, Wheat Flour, Baking Flour, Non Basmati Rice, Basmati Rice, Cooking Oil, Beans.",
+  },
+];
+
+export const ANOTHER_PRODUCT_DATA = [
+  {
+    _id: "1",
     image: product4,
     name: "Another product here",
     designation: "Description goes here......",
   },
+];
+
+import building1 from "@images/building/building-1-1.jpg";
+import building2 from "@images/building/building-1-2.jpg";
+import building3 from "@images/building/building-1-3.jpg";
+import building4 from "@images/building/building-1-4.jpg";
+export const BUILDING_DATA = [
   {
-    image: product5,
-    name: "Another product here",
+    _id: "1",
+    image: building1,
+    name: "Building Materials",
+    designation: "Descripption goes here",
+  },
+  {
+    _id: "2",
+    image: building2,
+    name: "Food Items",
     designation: "Description goes here......",
   },
   {
-    image: product6,
+    _id: "3",
+    image: building3,
+    name: "Non Food Items",
+    designation: "Description goes here......",
+  },
+
+  {
+    _id: "4",
+    image: building4,
     name: "Another product here",
     designation: "Description goes here......",
   },
+];
+import food1 from "@images/food/food-1-1.jpg";
+import food2 from "@images/food/food-1-2.jpg";
+import food3 from "@images/food/food-1-3.jpg";
+import food4 from "@images/food/food-1-4.jpg";
+export const FOOD_DATA = [
   {
-    image: product7,
-    name: "Another product here",
+    _id: "1",
+    image: food1,
+    name: "Building Materials",
+    designation: "Descripption goes here",
+  },
+  {
+    _id: "2",
+    image: food2,
+    name: "Food Items",
     designation: "Description goes here......",
   },
   {
-    image: product8,
+    _id: "3",
+    image: food3,
+    name: "Non Food Items",
+    designation: "Description goes here......",
+  },
+
+  {
+    _id: "4",
+    image: food4,
+    name: "Another product here",
+    designation: "Description goes here......",
+  },
+];
+
+import nonefood1 from "@images/nonefood/nonefood-1-1.jpg";
+import nonefood2 from "@images/nonefood/nonefood-1-2.jpg";
+import nonefood3 from "@images/nonefood/nonefood-1-3.jpg";
+import nonefood4 from "@images/nonefood/nonefood-1-4.jpg";
+export const NONE_FOOD_DATA = [
+  {
+    _id: "1",
+    image: nonefood1,
+    name: "Building Materials",
+    designation: "Descripption goes here",
+  },
+  {
+    _id: "2",
+    image: nonefood2,
+    name: "Food Items",
+    designation: "Description goes here......",
+  },
+  {
+    _id: "3",
+    image: nonefood3,
+    name: "Non Food Items",
+    designation: "Description goes here......",
+  },
+
+  {
+    _id: "4",
+    image: nonefood4,
     name: "Another product here",
     designation: "Description goes here......",
   },

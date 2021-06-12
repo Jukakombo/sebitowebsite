@@ -1,12 +1,17 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import TeamCard from "@components/team-card";
-import { PRODUCT_DATA, TEAM_DATA } from "@data/index";
-import OurProductCard from "./our-product-card";
+import {
+  BUILDING_PRODUCT_DATA,
+  FOOD_PRODUCT_DATA,
+  NONE_FOOD_PRODUCT_DATA,
+} from "@data/index";
+import OurProductCard from "./our-product-card-building";
+import OurProductCardFoodItem from "./our-product-card-food";
+import OurProductNoneFoodItemCard from "./our-product-card-nonefooditem";
 
 const OurProducts = () => {
   return (
-    <section className="team-one" id="team">
+    <section className="team-one" id="">
       <Container>
         <div className="block-title text-center">
           <p>
@@ -20,8 +25,24 @@ const OurProducts = () => {
         </div>
 
         <div className="team-one__4-col">
-          {PRODUCT_DATA.map((team, index) => (
-            <OurProductCard key={`team-card-key-${index}`} data={team} />
+          {BUILDING_PRODUCT_DATA.map((building) => (
+            <OurProductCard
+              key={`team-card-key-${building._id}`}
+              data={building}
+            />
+          ))}
+
+          {FOOD_PRODUCT_DATA.map((food) => (
+            <OurProductCardFoodItem
+              key={`team-card-key-${food._id}`}
+              data={food}
+            />
+          ))}
+          {NONE_FOOD_PRODUCT_DATA.map((food) => (
+            <OurProductNoneFoodItemCard
+              key={`team-card-key-${food._id}`}
+              data={food}
+            />
           ))}
         </div>
       </Container>

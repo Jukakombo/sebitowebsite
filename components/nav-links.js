@@ -46,7 +46,7 @@ const NavLinks = () => {
           offset={-70}
           duration={1000}
         >
-          Project
+          Location
         </ScrollLink>
       </li>
       <li>
@@ -96,6 +96,11 @@ const NavLinks = () => {
           <li>
             <Link href="/fooditems">
               <a>Food-Items</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/nonefooditems">
+              <a>None-Food-Items</a>
             </Link>
           </li>
         </ul>
