@@ -17,8 +17,8 @@ const About = () => {
               <img src={about1} alt="" />
               <img src={about2} alt="" />
               <div className="about-one__images-content text-center">
-                <h3>235</h3>
-                <p>Finished Projects</p>
+                <h3>100 plus</h3>
+                <p>Happy Customers</p>
               </div>
             </div>
           </Col>
@@ -26,26 +26,24 @@ const About = () => {
             <div className="about-one__content">
               <div className="block-title text-left">
                 <p>
-                  <span></span>About Your buisiness
+                  <span></span>About Us
                 </p>
-                <h3>
-                  example Your Partner for <br /> <span>Brief summary of your business</span>
-                </h3>
               </div>
 
               <p>
-                Example We work with the public sector to build thriving communities.
-                And we ork with regulators and financial institutions to build
-                trust and integrity in ets uis aliqua sunt nisi consectetur
-                anim.
+                JB General Trading Co. Ltd is administered and operated by a
+                fully experienced and qualified professional team of managers,
+                marketers, staff and skillful working force to enhance best
+                service delivery to our esteem customers.
               </p>
               <div className="about-one__box">
                 <i className="besit-icon-medal"></i>
                 <div className="about-one__box-content">
-                  <h3>Business Solutions​</h3>
+                  <h3>Delivery Solutions​</h3>
                   <p>
-                    Medixer Care will be administered through plan-based
-                    omizable incorporate partnership between family.
+                    We are committed in delivery of our products on time and as
+                    requested by our customers free of charge to their locations
+                    within Juba.
                   </p>
                 </div>
               </div>
@@ -54,8 +52,10 @@ const About = () => {
                 <div className="about-one__box-content">
                   <h3>24/7 Support</h3>
                   <p>
-                    Medixer Care will be administered through plan-based
-                    omizable incorporate partnership between family.
+                    Jb General Trading Co.Ltd have a good news you that you
+                    don't have to handle it all by yourself. With customer
+                    support services, such as telephone answering services,
+                    there to help you
                   </p>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const About = () => {
                   <i className="besit-icon-phone"></i>
                   <p>
                     Call anytime <br />{" "}
-                    <a href="tel:1-322-344-888">1-322-344-888</a>
+                    <a href="tel:+2119-2719-4949">+211(0)927194949</a>
                   </p>
                 </div>
               </div>
