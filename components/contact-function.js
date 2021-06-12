@@ -19,7 +19,7 @@ const ContactFunction = () => {
 
   return (
     <div>
-      <h1>This is a Contact-function✔✔✔hello</h1>
+      <h1>Contact-Dashboard</h1>
 
       {messages.map((message) => (
         <ContactCard

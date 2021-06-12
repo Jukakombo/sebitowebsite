@@ -174,8 +174,8 @@ export const TEAM_DATA = [
   },
   {
     image: team3,
-    name: "Clarence Herrera",
-    designation: "UX Engineer",
+    name: "Alison Juka",
+    designation: "Senior web developer,Graphic Designer & PR Specialists",
   },
   {
     image: team4,
@@ -211,7 +211,7 @@ export const DRINK_PRODUCT_DATA = [
   {
     _id: "1",
     image: product4,
-    name: "Cold & Alcoholic Drinks ",
+    name: "Beverages Drinks ",
     designation: "Coming soon",
   },
 ];

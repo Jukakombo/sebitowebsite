@@ -7,6 +7,7 @@ import footerGallery3 from "@images/resources/footer-g-1-3.jpg";
 import footerGallery4 from "@images/resources/footer-g-1-4.jpg";
 import footerGallery5 from "@images/resources/footer-g-1-5.jpg";
 import footerGallery6 from "@images/resources/footer-g-1-6.jpg";
+import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="main-footer">
@@ -19,14 +20,15 @@ const Footer = () => {
                   <img src={logoLight} alt="" />
                 </a>
                 <p>
-                  Lorem ipsum dolor sit amet, consecte adipisicing elit, sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                  enim ad mini veniam, quis nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo conse
+                  JB General Trading Co. Ltd is the leading company “Building
+                  Materials, Food Items and None Food Items” in South Sudan. It
+                  is an ISO Certified Company for quality Products.
                 </p>
-                <a href="/">
-                  Read More <i className="far fa-angle-double-right"></i>
-                </a>
+                <Link href="#services">
+                  <a>
+                    Read More <i className="far fa-angle-double-right"></i>
+                  </a>
+                </Link>
                 <hr />
                 <div className="footer-widget__social">
                   <a href="#" className="fab fa-facebook-f"></a>
