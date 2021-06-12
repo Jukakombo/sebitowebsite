@@ -9,6 +9,7 @@ import bgImage3 from "@images/backgrounds/slider-bg-1-3.jpg";
 import bgImage4 from "@images/backgrounds/slider-bg-1-4.jpg";
 import bgImage5 from "@images/backgrounds/slider-bg-1-5.jpg";
 import bgImage6 from "@images/backgrounds/slider-bg-1-6.jpg";
+import bgImage7 from "@images/backgrounds/slider-bg-1-7.jpg";
 SwiperCore.use([Autoplay, Pagination, EffectFade]);
 
 const SliderOne = () => {
@@ -28,6 +29,40 @@ const SliderOne = () => {
   return (
     <section className="main-slider">
       <Swiper className="thm-swiper__slider" {...carouselOptions}>
+        <SwiperSlide>
+          <div
+            className="image-layer"
+            style={{ backgroundImage: `url(${bgImage7})` }}
+          ></div>
+
+          <Container>
+            <div className="main-slider__box">
+              <div className="block-title text-left">
+                <p>
+                  <span></span> Welcome To JB General Trading Co. Ltd
+                </p>
+              </div>
+              <h3>Your Best Trading Company.</h3>
+              <p>
+                Your Best Trading Company In Building Materials, Food Items, Non
+                Food Items ...
+              </p>
+              <ScrollLink
+                activeClass="current"
+                className="thm-btn"
+                role="button"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={5000}
+              >
+                More About Us <i className="fa fa-arrow-circle-right"></i>{" "}
+              </ScrollLink>
+            </div>
+          </Container>
+        </SwiperSlide>
+
         <SwiperSlide>
           <div
             className="image-layer"
@@ -71,7 +106,7 @@ const SliderOne = () => {
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Working Hander To Solve Your Problems
+                  <span></span>Working Harder To Solve Your Problems
                 </p>
               </div>
 
