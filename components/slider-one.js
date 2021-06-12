@@ -106,7 +106,7 @@ const SliderOne = () => {
             <div className="main-slider__box">
               <div className="block-title text-left">
                 <p>
-                  <span></span>Working Harder To Solve Your Problems
+                  <span></span>working harder to solve your problem
                 </p>
               </div>
 
