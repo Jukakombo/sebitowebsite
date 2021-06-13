@@ -10,7 +10,7 @@ const BuildingMaterialCard = ({ data }) => {
   //   router.push("/buildingmaterials");
   // };
   return (
-    <a href="/buildingmaterials">
+    <a href="/bmfcontent">
       <div className="team-one__single">
         <div className="team-one__image">
           <img src={image} alt={name} />

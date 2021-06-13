@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 
-import { BUILDING_DATA} from "@data/index";
+import { BUILDING_DATA } from "@data/index";
 
 import BuildingMaterialCard from "./building-material-card";
 
