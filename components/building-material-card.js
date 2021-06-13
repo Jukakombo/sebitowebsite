@@ -1,14 +1,10 @@
-import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
 
 const BuildingMaterialCard = ({ data }) => {
   const router = useRouter();
   const { image, name, designation } = data;
-  // const buildingMaterials = (e) => {
-  //   e.preventDefault();
-  //   router.push("/buildingmaterials");
-  // };
+
   return (
     <a href="/bmfcontent">
       <div className="team-one__single">

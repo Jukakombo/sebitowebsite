@@ -255,7 +255,7 @@ export const BUILDING_DATA = [
     _id: "3",
     image: building3,
     name: "Non Food Items",
-    designation: "Description goes here......",
+    designation: "Description goes here...etc...",
   },
 
   {

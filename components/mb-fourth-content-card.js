@@ -1,14 +1,7 @@
 import React, { useEffect, useState } from "react";
 import blogDetailsImage1 from "@images/blog/blog-d-1.jpg";
 import blogDetailsImage2 from "@images/blog/blog-d-2.jpg";
-import footerGallery1 from "@images/resources/footer-g-1-1.jpg";
-import footerGallery2 from "@images/resources/footer-g-1-2.jpg";
-import footerGallery3 from "@images/resources/footer-g-1-3.jpg";
-import db from "../firebase";
-import { useForm } from "react-hook-form";
-import { useRouter } from "next/router";
-import firebase from "firebase";
-const BmFirstContent = () => {
+const BmFourthContent = () => {
   return (
     <section className="blog-details">
       <div className="container">
@@ -82,4 +75,4 @@ const BmFirstContent = () => {
   );
 };
 
-export default BmFirstContent;
+export default BmFourthContent;
