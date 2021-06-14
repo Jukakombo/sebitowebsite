@@ -273,27 +273,30 @@ export const FOOD_DATA = [
   {
     _id: "1",
     image: food1,
-    name: "Building Materials",
-    designation: "Descripption goes here",
+    name: "Flours",
+    designation: "Maize Flour, Wheat Flour, Baking Flour...",
   },
   {
     _id: "2",
     image: food2,
-    name: "Food Items",
-    designation: "Description goes here......",
+    name: "Baking Flours",
+    designation:
+      "All-Purpose Flour,White Wheat Flour,Pastry Flour,Cake Flour,Bread Flour,Self-Rising Flour,Vital Wheat Gluten Flour...",
   },
   {
     _id: "3",
     image: food3,
-    name: "Non Food Items",
-    designation: "Description goes here......",
+    name: "Beans & Oils",
+    designation:
+      "Great Northern beans,Fayot (Flageolet) beans,Red beans,Cannellini beans,Fava beans,Extra-virgin olive oil,Light olive oil,Coconut oil, Canola and other vegetable oils,Avocado oil,Peanut oil,Sesame oil...",
   },
 
   {
     _id: "4",
     image: food4,
-    name: "Another product here",
-    designation: "Description goes here......",
+    name: "Rice",
+    designation:
+      "white rice, Arborio rice, Basmati rice, Black rice,Jasmine rice, Brown rice, Red cargo rice, Parboiled rice, Sticky rice....",
   },
 ];
 
