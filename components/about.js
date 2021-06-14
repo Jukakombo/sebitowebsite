@@ -52,10 +52,8 @@ const About = () => {
                 <div className="about-one__box-content">
                   <h3>24/7 Support</h3>
                   <p>
-                    Jb General Trading Co.Ltd have a good news you that you
-                    don't have to handle it all by yourself. With customer
-                    support services, such as telephone answering services,
-                    there to help you
+                  A customer is the most important visitor on our premises. He is not dependent on us. We are dependent on him. He is not an interruption in our work. He is a purpose of it. He is not an outsider in our business. He is part of it. We are not doing him a favour by serving him. He is doing us a favour by giving us an opportunity to do so" Mahatma Gandhi. 
+                  This is our philosophy at JB General Trading Co Ltd. We provide 24/7 customer care services.
                   </p>
                 </div>
               </div>
