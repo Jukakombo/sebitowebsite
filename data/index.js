@@ -204,7 +204,7 @@ export const NONE_FOOD_PRODUCT_DATA = [
     image: product3,
     name: "Non Food Items",
     designation:
-      "Paper Plates,Plastic Utensils,Napkins, Paper Towels,Feminine Products,Diapers,Wet Wipes,Kleenex",
+      "Paper Plates,Plastic Utensils,Napkins, Paper Towels,Feminine Products,Diapers,Wet Wipes,Kleenex, textiles...",
   },
 ];
 export const DRINK_PRODUCT_DATA = [
@@ -212,7 +212,7 @@ export const DRINK_PRODUCT_DATA = [
     _id: "1",
     image: product4,
     name: "Beverages Drinks ",
-    designation: "Coming soon",
+    designation: "Alcoholic and none Alcoholic drinks",
   },
 ];
 export const FOOD_PRODUCT_DATA = [
@@ -221,7 +221,7 @@ export const FOOD_PRODUCT_DATA = [
     image: product2,
     name: "Food Items",
     designation:
-      "Maize Flour, Wheat Flour, Baking Flour, Non Basmati Rice, Basmati Rice, Cooking Oil, Beans.",
+      "Maize Flour, Wheat Flour, Baking Flour, Non Basmati Rice, Basmati Rice, Cooking Oil, Beans...",
   },
 ];
 

@@ -35,8 +35,8 @@ const HeaderOne = () => {
       <div className="topbar" id="home">
         <Container>
           <p>
-            <i className="far fa-clock"></i> Working hours from 7:00 am -
-            05.00pm Daily
+            <i className="far fa-clock"></i> Working hours from 7:00 am - 6.00pm
+            Daily
           </p>
 
           <div className="topbar-social">
@@ -65,6 +65,9 @@ const HeaderOne = () => {
               <i className="besit-icon-phone"></i>
               <h3>
                 Call Us: <a href="tel:+2119-27194-949">+211(0)927194949</a>
+              </h3>
+              <h3>
+                Call Us: <a href="tel: +2119-1872-1171">+211(0)918721171</a>
               </h3>
               <p>Date:{dateTime}</p>
             </div>

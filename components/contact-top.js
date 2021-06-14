@@ -15,7 +15,7 @@ const ContactTop = () => {
               <p>
                 <span></span>Get in Touch
               </p>
-              <h3>Contact Us Today and Get a</h3>
+              <h3>Contact Us Today </h3>
             </div>
           </Col>
         </Row>
