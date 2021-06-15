@@ -44,7 +44,7 @@ const HeaderTwo = () => {
               offset={-70}
               duration={500}
             >
-              Free Consultant <i className="fa fa-arrow-circle-right"></i>
+              Contact Us Now <i className="fa fa-arrow-circle-right"></i>
             </ScrollLink>
           </div>
         </Container>
@@ -78,7 +78,7 @@ const HeaderTwo = () => {
               offset={-70}
               duration={1000}
             >
-              Free Consultant <i className="fa fa-arrow-circle-right"></i>
+              Contact Us Now <i className="fa fa-arrow-circle-right"></i>
             </ScrollLink>
           </div>
         </Container>
