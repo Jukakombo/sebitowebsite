@@ -52,8 +52,14 @@ const About = () => {
                 <div className="about-one__box-content">
                   <h3>24/7 Support</h3>
                   <p>
-                  A customer is the most important visitor on our premises. He is not dependent on us. We are dependent on him. He is not an interruption in our work. He is a purpose of it. He is not an outsider in our business. He is part of it. We are not doing him a favour by serving him. He is doing us a favour by giving us an opportunity to do so" Mahatma Gandhi. 
-                  This is our philosophy at JB General Trading Co Ltd. We provide 24/7 customer care services.
+                    A customer is the most important visitor on our premises. He
+                    is not dependent on us. We are dependent on him. He is not
+                    an interruption in our work. He is a purpose of it. He is
+                    not an outsider in our business. He is part of it. We are
+                    not doing him a favour by serving him. He is doing us a
+                    favour by giving us an opportunity to do so" Mahatma Gandhi.
+                    This is our philosophy at JB General Trading Co Ltd. We
+                    provide 24/7 customer care services.
                   </p>
                 </div>
               </div>
@@ -76,8 +82,8 @@ const About = () => {
                   <i className="besit-icon-phone"></i>
                   <p>
                     Call anytime <br />{" "}
-                    <a href="tel:+2119-2719-4949">+211(0)927194949</a><br />{" "}
-                    <a href="tel:+211-9-1872-1171">+211(0)918721171</a>
+                    <a href="tel:+2119-2719-4949">+211(0)927194949</a>
+                    <br /> <a href="tel:+211-9-1872-1171">+211(0)918721171</a>
                   </p>
                 </div>
               </div>
