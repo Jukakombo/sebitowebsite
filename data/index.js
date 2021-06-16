@@ -243,7 +243,8 @@ export const BUILDING_DATA = [
     _id: "1",
     image: building1,
     name: "Metal building materials",
-    designation: "Mild Steel, Rebar Steel,Structural Steel,plumber pipes,...",
+    designation:
+      "Mild Steel, Rebar Steel,Structural Steel,light gauge steel,rolled round bars & square,TMB bars, Angle and channel section,ribbed bars,plumber pipes,...",
   },
   {
     _id: "2",
