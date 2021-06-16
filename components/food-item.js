@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import { FOOD_DATA } from "@data/index";
 import { useRouter } from "next/router";
 import NoneFoodItemCard from "./none-food-items-card";
-import Link from "next/link";
 
 const FoodItem = () => {
   const router = useRouter();

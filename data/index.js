@@ -242,27 +242,30 @@ export const BUILDING_DATA = [
   {
     _id: "1",
     image: building1,
-    name: "Building Materials",
-    designation: "Descripption goes here",
+    name: "Metal building materials",
+    designation: "Mild Steel, Rebar Steel,Structural Steel,plumber pipes,...",
   },
   {
     _id: "2",
     image: building2,
-    name: "Food Items",
-    designation: "Description goes here......",
+    name: "Cements,ironsheets & tiles",
+    designation:
+      "Ordinary Portland Cement,Portland Pozzolana Cement,galvanize ironsheet,stone coated roof,Ceramic Tiles,terracotta Tiles,Vinyl Tiles,Marble Tile,Granite Tiles,Linoleum Floor Tiles...",
   },
   {
     _id: "3",
     image: building3,
-    name: "Non Food Items",
-    designation: "Description goes here...etc...",
+    name: "Binding Wires & Nails",
+    designation:
+      "Common nails,Finishing nails,Box nails,Roofing nails,Masonry nails,Double-headed nails,Drywall nails,Annular ring shank nailsrebar tie wire, binding wire, PVC coated tie wire, aluminum wire and stainless steel tie wire....",
   },
 
   {
     _id: "4",
     image: building4,
-    name: "Another product here",
-    designation: "Description goes here......",
+    name: "Electrical Equipments",
+    designation:
+      "appliance, cable, conductor, fitting, insulator, material, meter, Switches, relays, enclosures,cabling(&glands),Lighting (Explosion Proof),Circuit Breakers, cable & wires...",
   },
 ];
 import food1 from "@images/food/food-1-1.jpg";

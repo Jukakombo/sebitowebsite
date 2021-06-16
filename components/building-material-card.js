@@ -1,8 +1,6 @@
 import React from "react";
-import { useRouter } from "next/router";
 
 const BuildingMaterialCard = ({ data }) => {
-  const router = useRouter();
   const { image, name, designation } = data;
 
   return (

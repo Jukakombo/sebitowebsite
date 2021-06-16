@@ -13,9 +13,6 @@ const ContactFunction = () => {
         setMessages(snapshot.docs.map((doc) => doc.data()))
       );
   }, []);
-  // const { realtimeMessages } = useCollection(
-  //   db.collection("messages").orderBy("timestamp", "desc")
-  // );
 
   return (
     <div>

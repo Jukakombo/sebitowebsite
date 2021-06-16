@@ -4,7 +4,7 @@ import HeaderOne from "@components/header-one";
 import MobileNav from "@components/mobile-nav";
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
-import Link from "next/link";
+ 
 
 const Index = () => {
   return (
@@ -28,9 +28,9 @@ const Index = () => {
           <p>You are our always our priority!</p>
 
           <p>Have an amazing day!</p>
-          <Link href="/">
-            <a>Back/Home</a>
-          </Link>
+          
+            <a href="/">Back/Home</a>
+          
         </div>
       </div>
 

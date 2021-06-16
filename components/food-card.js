@@ -1,9 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { useRouter } from "next/router";
 
 const FoodCard = ({ data }) => {
-  const router = useRouter();
   const { image, name, designation } = data;
 
   return (

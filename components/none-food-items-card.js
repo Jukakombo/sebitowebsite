@@ -1,10 +1,9 @@
-import Link from "next/link";
+ s
 import React from "react";
-import { useRouter } from "next/router";
 
 const NoneFoodItemCard = ({ data }) => {
   const { image, name, designation } = data;
-  const router = useRouter();
+
   const nonefood = (e) => {
     e.preventDefault();
     router.push("/nonfooditems");

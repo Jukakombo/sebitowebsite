@@ -12,7 +12,7 @@ const ProductDetails = () => {
     <Layout pageTitle="JB General Trading Co. Ltd">
       <HeaderTwo />
       <MobileNav />
-      <PageHeader title={`Blog Details`} />
+      <PageHeader title={`Product Details`} />
       <ProductDetailsComponent />
       <Brand />
       <Footer />
